@@ -1,0 +1,205 @@
+@charset "utf-8";
+
+/* Contents */
+#contents {
+    width: 100%;
+}
+/* 슬라이드 */
+#contents .main_slide {
+    margin-bottom: 50px;
+    padding-top: 64px;
+}
+#contents .main_slide img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(80%); 
+}
+#contents .slide {
+    /* 포지션 기준값 */
+    position: relative;
+}
+#contents .slide ul{
+    padding: 0 5px 10px 10px;
+    /* (5/360)*100 = 1.3888888888888888 */
+    /* (10/360)*100 = 2.7777777777777777 */
+    padding: 0 1.38vw 10px 2.777vw;
+    color: #ededed;
+    /* 포지션 */
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   z-index: 999999;
+}
+#contents .slide ul li:nth-child(1) {
+    margin: 0 0 0 2px;
+    display: inline;
+    padding: 0 14px;
+    /* (14/260)*100 = 5.384615384615385 */
+    padding: 0 5.384615384615385vw;
+    letter-spacing: 0.15em;
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+}
+#contents .slide ul li:nth-child(2) {
+    margin: 8px 0 8px;
+    font-size: 20px;
+    font-weight: 700;
+}
+#contents .slide ul li:nth-child(3) {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    margin-left: 2px;
+}
+/* desiney */
+.desiney h2,
+.store h2 {
+    margin: 0 0 16px 16px;
+    /* (16/360)*100 = 4.444444444444445 */
+    margin: 0 0 16px 4.444444444444445vw;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    border-left: 1px solid #ffcc00;
+}
+.desiney01 {
+    padding: 122px 16px 12px;
+    /* (16/360)*100 = 4.444444444444445 */
+    padding: 122px 4.444444444444445vw 12px;
+    height: 203px;
+    background: url(../images/national_img/desiney01.png) no-repeat;
+    background-size: 100% 100%;
+}
+.desiney02 {
+    margin: 8px 0;
+    padding: 122px 16px 12px;
+    /* (16/360)*100 = 4.444444444444445 */
+    padding: 122px 4.444444444444445vw 12px;
+    height: 203px;
+    background: url(../images/national_img/desiney02.png) no-repeat;
+    background-size: 100% 100%;
+}
+.desiney03 {
+    padding: 122px 16px 12px;
+    /* (16/360)*100 = 4.444444444444445 */
+    padding: 122px 4.444444444444445vw 12px;
+    height: 203px;
+    background: url(../images/national_img/desiney03.png) no-repeat;
+    background-size: 100% 100%;
+}
+.desiney01 span,
+.desiney02 span,
+.desiney03 span {
+    padding: 2px 14px 0 16px;
+    /* (14/360)*100 = 3.888888888888889 */
+    /* (16/360)*100 = 4.444444444444445 */
+    padding: 2px 3.88888888888888vw 0 4.444444444444445vw;
+    font-size: 12px;
+    color: #ededed;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+}
+.desiney01 h3,
+.desiney02 h3,
+.desiney03 h3 {
+    margin: 8px 0 8px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
+    color: #ededed;
+}
+.desiney01 p,
+.desiney02 p,
+.desiney03 p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #ededed;
+}
+/* store */
+.store h2 {
+    margin-top: 48px;
+}
+.store .store01 {
+    padding: 122px 16px 12px;
+    /* (16/360)*100 = 4.444444444444445 */
+    padding: 122px 16px 4.444444444444445vw;
+    height: 203px;
+    background: url(../images/national_img/store01.png) no-repeat;
+    background-size: 100% 100%;
+}
+/* .store .store01::before{
+    width: 100%;
+    height: 203px;
+    content: "";
+    display: block;
+    opacity: 0;
+    background-color: #000;
+} */
+.store .store02 {
+    margin: 8px 0;
+    padding: 122px 16px 12px;
+    /* (16/360)*100 = 4.444444444444445 */
+    padding: 122px 16px 4.444444444444445vw;
+    height: 203px;
+    background: url(../images/national_img/store02.png) no-repeat;
+    background-size: 100% 100%;
+}
+.store .store03 {
+    padding: 122px 16px 12px;
+    /* (16/360)*100 = 4.444444444444445 */
+    padding: 122px 16px 4.444444444444445vw;
+    height: 203px;
+    background: url(../images/national_img/store03.png) no-repeat;
+    background-size: 100% 100%;
+}
+.store .store04 {
+    margin-top: 8px;
+    padding: 122px 16px 12px;
+    /* (16/360)*100 = 4.444444444444445 */
+    padding: 122px 16px 4.444444444444445vw;
+    height: 203px;
+    background: url(../images/national_img/store04.png) no-repeat;
+    background-size: 100% 100%;
+}
+.store .store01 span,
+.store .store02 span,
+.store .store03 span,
+.store .store04 span {
+    padding: 2px 14px 0 16px;
+    /* (14/360)*100 = 3.888888888888889 */
+    /* (16/360)*100 = 4.444444444444445 */
+    padding: 2px 3.88888888888888vw 0 4.444444444444445vw;
+    font-size: 12px;
+    color: #ededed;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+    border-left: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+}
+.store .store01 h3,
+.store .store02 h3,
+.store .store03 h3,
+.store .store04 h3{
+    margin: 8px 0 8px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Noto Sans', sans-serif;
+    color: #ededed;
+}
+.store .store01 p,
+.store .store02 p,
+.store .store03 p,
+.store .store04 p{
+    font-size: 12px;
+    font-weight: 500;
+    color: #ededed;
+}
+
+

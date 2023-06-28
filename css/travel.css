@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/* Contents */
+#contents {
+    padding-top: 64px;
+    width: 100%;
+    height: 100%;
+}
+#contents .travel_bg>h2 {
+    padding: 50px 0 28px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+}
+#contents .travel_bg .divider_line {
+    width: 30px;
+    height: 4px;
+    margin: 0 auto;
+    background-color: #ffcc00;
+}
+#contents .travel_bg {
+    width: 100vw;
+    height: 100%;
+    /* filter: brightness(90%); */
+    padding: 0 16px;
+    background: url(../images/national_img/travel_bg02.png) no-repeat;
+    background-size: 100% 100%;
+}
+#contents .travel_tab ul {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 32px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    /* border-bottom: 2px solid #ffffff; */
+    /* 플렉스 */
+    display: flex;
+    justify-content: space-between;
+}
+#contents .travel_tab ul li {
+    padding: 8px 12px;
+}
+.travel_tab ul li.on {
+    border-bottom: 3px solid #ffcc00;
+}
+.travel_tab{
+    width: 100%;
+}
+.travel_tab .tabs {
+    margin-top: 50px;
+    /* width: 100%; */
+    /* height: 100%; */
+    /* 포지션 */
+    /* position: absolute; */
+}
+.travel_tab .tabs img {
+    width: 100%;
+    /* height: 100%; */
+}
+.travel_tab .tabs .tab_info{
+    
+    padding: 20px 16px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.travel_tab .tabs .tab_info>span {
+    padding: 0 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    letter-spacing: 0.15em;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+.travel_tab .tabs .tab_info h2 {
+    margin: 8px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+.travel_tab .tabs .tab_info p {
+    font-size: 12px;
+    margin: 12px 0;
+}
+.travel_tab .tabs .tab_info p>span {
+    font-weight: 700;
+}
+/* 로딩시 안보이기 */
+.tab02,
+.tab03 {
+    display: none;
+}
+
+
+
+
+
